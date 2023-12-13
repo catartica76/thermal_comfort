@@ -86,6 +86,7 @@
         }
       },
       "relative_strain_perception": {
+        "name": "Percezione della tensione relativa",
         "state": {
           "outside_calculable_range": "Fuori scala",
           "comfortable": "Confortevole",
