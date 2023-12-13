@@ -44,7 +44,14 @@
   },
   "entity": {
     "sensor": {
+      "absolute_humidity": {
+        "name": "Umidità assoluta"
+      },
+      "dew_point": {
+        "name": "Punto di rugiada"
+      },
       "dew_point_perception": {
+        "name": "Percezione del punto di rugiada",
         "state": {
           "dry": "Secco per qualcuno",
           "very_comfortable": "Molto confortevole",
@@ -85,6 +92,9 @@
           "heat_stroke": "Probabile colpo di calore"
         }
       },
+      "moist_air_enthalpy": {
+        "name": "Entalpia dell’aria umida"
+      },
       "relative_strain_perception": {
         "name": "Percezione della tensione relativa",
         "state": {
@@ -97,6 +107,7 @@
         }
       },
       "summer_scharlau_perception": {
+        "name": "Percezione dell’indice di Scharlau estivo",
         "state": {
           "outside_calculable_range": "Fuori scala",
           "comfortable": "Confortevole",
@@ -106,6 +117,7 @@
         }
       },
       "winter_scharlau_perception": {
+        "name": "Percezione dell’indice di Scharlau invernale",
         "state": {
           "outside_calculable_range": "Fuori scala",
           "comfortable": "Confortevole",
@@ -115,6 +127,7 @@
         }
       },
       "summer_simmer_perception": {
+        "name": "Percezione dell’indice di Simmer estivo",
         "state": {
           "cool": "Freddo",
           "slightly_cool": "Leggermente freddo",
@@ -128,6 +141,7 @@
         }
       },
       "thoms_discomfort_perception": {
+        "name": "Indice di Thom",
         "state": {
           "no_discomfort": "Confortevole",
           "less_than_half": "Meno della metà della popolazione avverte disagio",
