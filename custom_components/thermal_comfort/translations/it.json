@@ -68,7 +68,14 @@
           "high": "Alta probabilità"
         }
       },
+      "heat_index": {
+        "name": "Temperatura effettiva"
+      },
+      "humidex": {
+        "name": "Indice di umidità"
+      },
       "humidex_perception": {
+        "name": "Percezione dell’indice di umidità",
         "state": {
           "comfortable": "Confortevole",
           "noticable_discomfort": "Disagio",
